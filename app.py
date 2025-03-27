@@ -2,6 +2,7 @@ from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import re
 import os
+from dotenv import load_dotenv
 import requests
 
 app = Flask(__name__)
